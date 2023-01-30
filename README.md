@@ -1,6 +1,6 @@
 # sofikrul.github.io
 
-## Projecs
+## Projects
 - HTML
 - CSS
 - JS
