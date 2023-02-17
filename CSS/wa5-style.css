@@ -1,0 +1,44 @@
+*{box-sizing: border-box;}
+
+body {
+    margin: 0;
+    background: white;   
+  }
+
+.images {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.image1 {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+  }
+.image2 {
+    position: block;
+    width: 20%;
+    bottom: 40%;
+  }
+
+
+  #overlay{
+    position: fixed;
+    width: 1000px;
+    top: 60%;
+    left: 70%;
+  }
+
+  #overlay2{
+    position: fixed;
+    width:4000px;
+    bottom: 80%;
+    left: 18%;
+
+  }
+
+  article {
+    background: url("/img/wa5/InfoMercial.jpg");
+  }
+
