@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: whitesmoke;
+}
+
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+}
+
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:rgba(255, 166, 0, 0.766);
+}
+
+.aboutme{
+  width: 1500px;
+  height: 800px;
+  margin: 4em auto;
+  background-color: darkolivegreen;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  
+}
+
+
+.aboutme header
+{
+  background-image: linear-gradient(to bottom,rgb(0, 0, 0,.1), rgba(0, 0, 0, 0));
+  border-radius: 2em 2em 0 0;
+  height: 300px;
+  padding: 1em;
+  margin-top: 1em;
+}
+
+.aboutme article
+{
+    height: 1200px;
+    padding-left: 0.5em;
+    padding-top: 1.0em;
+    color: whitesmoke;
+}
