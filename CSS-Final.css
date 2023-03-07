@@ -3,11 +3,10 @@ body{
     flex-direction: column;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(223, 221, 217);
 }
 
 nav{
-    height: 50vh;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
@@ -17,33 +16,43 @@ nav{
 nav a{
     width:10vw;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
+    cursor: pointer;
     color:rgba(255, 166, 0, 0.766);
 }
-
-.aboutme{
-  width: 1500px;
-  height: 800px;
-  margin: 4em auto;
-  background-color: darkolivegreen;
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
-  
+nav a:hover{
+    color: grey;
 }
 
+aside {
+    width: 40%;
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+    float: left;
+}
+
+
+.aboutme{
+  width: 1200px;
+  height: 600px;
+  margin: 1.5em auto;
+  background-color: darkolivegreen;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
 
 .aboutme header
 {
-  background-image: linear-gradient(to bottom,rgb(0, 0, 0,.1), rgba(0, 0, 0, 0));
   border-radius: 2em 2em 0 0;
-  height: 300px;
-  padding: 1em;
-  margin-top: 1em;
+  height: 50px;
+  padding-left: 2.5em;
+  padding-top: 1.5em;
+  float: left;
 }
 
-.aboutme article
+.aboutme img
 {
-    height: 1200px;
-    padding-left: 0.5em;
-    padding-top: 1.0em;
-    color: whitesmoke;
+    width: 350px;
+    float: right;
+    padding-right: 5em;
+    padding-top: .75em;
 }
