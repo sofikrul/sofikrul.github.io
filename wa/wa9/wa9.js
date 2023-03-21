@@ -10,7 +10,7 @@ function randomValueFromArray(array){
 const storyText = 'Once upon a time, there were two friends named Bob and Sally. One day, they decided to take xval for a walk yval. But as they were crossing the street, zval appeared and stole their frog, leading to a wild chase around the city.';
 const insertx = ['their pet frog', 'their pet chincila', 'their pet armadillo'];
 const inserty = ['in the park', 'in the dessert', 'in the pond'];
-const insertz = ['a giant squirrel', 'a medium sized squirrel', 'a samll sized squirrel'];
+const insertz = ['a giant squirrel', 'a medium sized squirrel', 'a small sized squirrel'];
 
 randomize.addEventListener('click', result);
 
