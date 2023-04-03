@@ -1,22 +1,20 @@
-var displayedImage = document.querySelector('.displayed-img');
-var thumbBar = document.querySelector('.thumb-bar');
-
-btn = document.querySelector('button');
-var overlay = document.querySelector('.overlay');
+const displayedImage = document.querySelector('.displayed-img');
+const thumbBar = document.querySelector('.thumb-bar');
+const btn = document.querySelector('button');
+const overlay = document.querySelector('.overlay');
 
 /* Declaring the array of image filenames */
-array-image ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg', 'pic5.jpg']
+const images = ['dog2.JPEG', 'dog3.JPEG', 'dog4.JPEG', 'dog5.JPEG'];
 /* Declaring the alternative text for each image file */
 
 /* Looping through images */
-function thumbnailLoop() {
-    var i;
-    for (i = 0; i < 5; i++) {
-    var newImage = document.createElement('img');
-    newImage.setAttribute('src', "images/pic" + (i+1) + ".jpg");
+for (const i of images)
+{
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', `/img/${i}`);
     thumbBar.appendChild(newImage);
-  }
-  }
+    newImage.addEventListener('click', e => {displayedImage.src = e.target.src;})
+}
 
 const newImage = document.createElement('img');
 newImage.setAttribute('src', xxx);
