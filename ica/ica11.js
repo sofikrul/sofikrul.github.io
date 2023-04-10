@@ -16,10 +16,11 @@ async function getQuote() {
         if (!response.ok) {
             throw Error(response.statusText)
         }
-        const json = await response.json();
-        //console.log(json);
-        displayQuote(json.question);
-        showAnswer(json.answer);
+    const json = await response.json();
+    //console.log(json);
+    displayQuote(json.question);
+    showAnswer(json.answer);
+    
     }
 
     catch (err) {
