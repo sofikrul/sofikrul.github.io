@@ -1,35 +1,12 @@
-
+/* wa13 */
 
 function check() {
     console.log('test');
 }
 
-function submit() {
-    alert(output.textContent);
-}
-
-function reset() {
-    outputInt = 0;
-    output.textContent = outputInt;
-}
-
-function minus() {
-    if (outputInt > 0) {
-    outputInt -=1;
-    output.textContent = outputInt; }
-    
-}
-
-function plus() {
-    if (outputInt < 100) {
-    outputInt +=1;
-    output.textContent = outputInt;
-    }
-}
-
-function random() {
-    outputInt = randomNumber(0, 100);
-    output.textContent = outputInt;
+function random1() {
+    outputInt = randomNumber(0, 50);
+    output1.textContent = outputInt;
 }
 
 function randomNumber(min, max) {
@@ -37,36 +14,37 @@ function randomNumber(min, max) {
     return num;
   }
 
+function setVolume(){
+    volumeInt = outputInt + outputInt2;
+    volumeOutput.textContent = volumeInt;
+}
 
+  function random2() {
+    outputInt2 = randomNumber(0, 50);
+    output2.textContent = outputInt2;
+}
 
-const output = document.querySelector('.output');
-let outputInt = parseInt(output.textContent);
+  function reset() {
+    outputInt = 0;
+    output1.textContent = outputInt;
+    output2.textContent = outputInt;
+    volumeOutput.textContent = outputInt;
+}
+
+const output1 = document.querySelector('.output1');
+const output2 = document.querySelector('.output2');
+const volumeOutput = document.querySelector('.volumeOutput');
+
+let outputInt = parseInt(output1.textContent);
+let outputInt2 = parseInt(output2.textContent);
+let volumeInt = parseInt(volumeOutput.textContent);
+
 console.log(outputInt);
+console.log(volumeInt);
 
-const minusButton = document.querySelector('.minus-button').addEventListener('click', minus);
-const plusButton = document.querySelector('.plus-button').addEventListener('click', plus);
+
+
+const randomButton1 = document.querySelector('.random1-button').addEventListener('click', random1);
+const randomButton2 = document.querySelector('.random2-button').addEventListener('click', random2);
+const setVolumeButton = document.querySelector('.set-volume').addEventListener('click', setVolume);
 const resetButton = document.querySelector('.reset-button').addEventListener('click', reset);
-const randomButton = document.querySelector('.random-button').addEventListener('click', random);
-const submitButton = document.querySelector('.submit-button').addEventListener('click', submit);
-
-
-/* const button = document.querySelector('.button');
-const output = document.querySelector('.output');
-let phone_content = document.querySelector('.phone');
-button.addEventListener('click', updateOutput);
-function updateOutput() {
-    output.textContent = phone_content.value;
-    alert(phone_content.value);
-}
-*/
-
-
-var slider = document.getElementById("myRange");
-var sliderSubmit = document.querySelector(".slider-submit-button").addEventListener('click', update);
-var sliderOutput = document.querySelector(".slider-output");
-
-
-// Update the current slider value (each time you drag the slider handle)
-function update() {
-  sliderOutput.textContent = slider.value;
-}
