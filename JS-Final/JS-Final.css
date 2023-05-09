@@ -22,6 +22,10 @@
     position: absolute;
     top: 83%;
     left: 26%;
+    color: white;
+}
+.randomgensummer :hover {
+    color:#00539C
 }
 
 .randomgenwinter {
@@ -29,6 +33,7 @@
     position: absolute;
     top: 83%;
     left: 56%;
+    color: white
 }
 
   body {
@@ -55,21 +60,21 @@ nav a:hover {
 }
 
 h3{
-    font-size: 100px;
+    font-size: 120px;
     color: #00539C;
-    background-color: #F5F5F5;
-    padding-left: 27%;
+    /*background-color: #F5F5F5;*/
+    padding-left: 20%;
 }
 
 h4{
     font-size: 100px;
     color: gray;
-    background-color: #F5F5F5;
+    /*background-color: #F5F5F5;*/
 }
 
 h5{
     font-size: 90px;
-    background-color: #F5F5F5;
+    /*background-color: #F5F5F5;*/
     word-wrap: break-word;
     inline-size: 2000px;
     float: right;
@@ -77,6 +82,32 @@ h5{
     right: 40%;
     bottom: 145px;
 }
+
+/* unvisited link */
+a:link {
+    color: darkgrey;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: darkgray;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #00539C;
+    text-decoration: underline;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #00539C;
+    text-decoration: underline;
+  }
+
+
 .active {
     background-color: #00539C;
     color: white;
@@ -224,7 +255,6 @@ h5{
 
 .lists ul{
     font-size: 60px;
-    background-color: #F5F5F5;
     word-wrap: break-word;
     inline-size: 2000px;
     float: right;
