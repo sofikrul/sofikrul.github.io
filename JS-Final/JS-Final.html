@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <head>
+        <title>Colorado Adventures</title>
+        <link rel="stylesheet" href="/JS-Final/JS-Final.css">
+    </head>
+    <body>
+        <nav id = "navbar">
+            <a class="navlink" href="#indoor">Indoor Activities</a>
+            <a class="navlink" href="#outdoorsummer">Outdoor Summer Activities</a>
+            <a class="navlink" href="#outdoorwinter">Outdoor Winter Activities</a>
+            <a class="navlink" href="#food">Food</a>
+        </nav>
+        <!-- first image w/ colorado word and generator button -->
+        <div class="CO">
+            <img src="CO.jpg" alt="Colorado Mountains" width="5760" height="1600">
+            <div class="COLORADO">COLORADO</div>
+            <button id="summerButton"><div class="randomgensummer">RANDOM SUMMER ACTIVITY</div></button>
+            <button id="winterButton"><div class="randomgenwinter">RANDOM WINTER ACTIVITY</div></button>
+        </div>
+        <!-- intro paragraphj -->
+        <div class="paragraph">
+            <h2>There are countless reasons why someone should get off their ass and go explore Colorado. From the stunning natural beauty of the Rocky Mountains to the vibrant culture and unique cuisine of Denver, there's something for everyone in the Centennial State. Whether you're an outdoor enthusiast, a foodie, or simply looking for a change of scenery, Colorado is the perfect place for an unforgettable adventure.</h2>
+        
+        </div>
+       <!-- 4 pictures with buttons -->
+       <div class = buttonContainer>
+        <button onclick="window.location.href='#indoor'"><img src="indoor.png" class="indoorimage" alt="Colorado Mountains" width="1200" height="1200"></button>
+                <div class="middle"> <div class = "indoortext">Indoor Activities</div></div>
+        <button onclick="window.location.href='#outdoorsummer'"> <img src="summer.png" class="summerimage" alt="Colorado Mountains" width="1200" height="1200"> </button>
+                <div class="summermiddle"><div class = "summertext">Summer Activities</div></div>
+        <button onclick="window.location.href='#outdoorwinter'"> <img src="winter.png" class="winterimage" alt="Colorado Mountains" width="1200" height="1200"> </button>
+                <div class="wintermiddle"><div class = "wintertext">Winter Activities</div></div>
+        <button onclick="window.location.href='#food'">     <img src="food.png" class="foodimage" alt="Colorado Mountains" width="1200" height="1200"></button>
+                <div class="foodmiddle"><div class = "summertext">Food</div></div>
+       </div>
+       <!-- indoor activities -->
+       <div class="indooractivities" id="indoor">
+        <h3> Indoor Activities</h3>
+
+       <h4> <a href="https://www.denverunionstation.com/">Union Station</a></h4>
+       <img src="Union.png" alt="Union Station" width="600" height="600" style="float: inheret; margin: 5px;">
+       <h5> Denver Union Station is a historic transportation hub turned vibrant gathering place featuring restaurants, shops, and a luxury hotel.</h5> 
+
+       <h4> Telluride Mountain Village Gandola</h4>
+       <img src="Telluride.png" alt="Telluride Mountain Gandola" width="600" height="600">
+       <h5> The Telluride Mountain Village Gondola is a free, scenic, and eco-friendly transportation system that provides breathtaking views of the San Juan Mountains. Click <a href="https://www.telluride.com/discover/the-gondola/">here</a> for more information</h5> 
+
+       <h4> Museum of Nature and Science</h4>
+       <img src="Natural.png" alt="Museum of Nature and Science" width="600" height="600">
+       <h5> The Denver Museum of Nature & Science is a world-class museum that offers engaging exhibits and educational programs on various scientific topics, including space, health, and anthropology. Click <a href="https://www.dmns.org/">here</a> for more information</h5> 
+       
+       <h4> Bachelor Syracuse Mine Tour</h4>
+       <img src="Mine.png" alt="Bachelor Syracuse Mine Tour" width="600" height="600">
+       <h5> The Bachelor Syracuse Mine Tour is an underground adventure in Ouray that offers visitors a glimpse into the area's mining history and the opportunity to experience what it was like to be a miner. Click <a href="https://bachelorsyracusemine.com/">here</a> for more information</h5> 
+
+       <h4> Butterfly Pavilion</h4>
+       <img src="Butterfly.png" alt="Butterfly Pavilion" width="600" height="600">
+       <h5> The Butterfly Pavilion in Colorado is a unique indoor zoo that allows visitors to interact with and learn about various live invertebrates, including butterflies and spiders. Click <a href="https://butterflies.org/?gclid=CjwKCAjwxr2iBhBJEiwAdXECw1zafmAu7PPl6pSHpcLBzS_B8l0LVC8vCn-nsqTC1d9QD_pFviDf_hoCfRkQAvD_BwE">here</a> for more information</h5> 
+
+       <h4> Denver Art Museum</h4>
+       <img src="Art.png" alt="Denver Art Museum" width="600" height="600">
+       <h5> The Denver Art Museum is a world-class museum featuring diverse art from various cultures and periods. Click <a href="https://www.denverartmuseum.org/en?gad=1&gclid=CjwKCAjwxr2iBhBJEiwAdXECwzU0QIZ_tGSVYF1XdIQfk1RU9R69sp7OMVm9E8G_9ON4rHMg2b1qLBoC8-AQAvD_BwE">here</a> for more information</h5> 
+
+       <h4> Colorado State Capitol</h4>
+       <img src="Capitol.png" alt="Colorado State Capitol" width="600" height="600">
+       <h5> The Colorado State Capitol is a stunning neoclassical building in Denver that houses the Colorado General Assembly and the offices of the Governor and Lieutenant Governor. Click <a href="https://capitol.colorado.gov/">here</a> for more information</h5> 
+
+       <h4> Colorado School of Mines Geology Museum</h4>
+       <img src="Geology.png" alt="Colorado School of Mines Geology Museum" width="600" height="600">
+       <h5> The Colorado School of Mines Geology Museum is a fascinating destination that showcases a diverse collection of minerals, fossils, and other geological wonders, including a T-Rex skeleton. Click <a href="https://www.mines.edu/museumofearthscience/">here</a> for more information</h5> 
+
+       <h4> Park Meadows Mall</h4>
+       <img src="Mall.png" alt="Park Meadows Mall" width="600" height="600">
+       <h5> Park Meadows Mall is a premier shopping destination in Colorado, featuring over 185 stores, restaurants, and entertainment options, including high-end retailers like Nordstrom and Tiffany & Co. Click <a href="https://www.parkmeadows.com/en.html">here</a> for more information</h5> 
+        </div>
+       <!-- outdoor activities (summer)-->
+       <div class="outdoorsummeractivities" id="outdoorsummer">
+       <h3> Outdoor Summer Activities </h3>
+
+       <h4> Fossils at Dinosaur National Monument</h4>
+       <img src="Fossil.png" alt="Fossils at Dinosaur National Monument" width="600" height="600">
+       <h5> Dinosaur National Monument is a paleontologist's dream, containing one of the world's most complete and diverse collections of dinosaur fossils, including the famous Stegosaurus and Allosaurus. Click <a href="https://www.nps.gov/dino/learn/nature/paleontology.htm">here</a> for more information</h5> 
+
+       <h4> Ancestral Puebloan Ruins at Hoveweep (near Dove Creek)</h4>
+       <img src="Pueblo.png" alt="Ancestral Puebloan ruins" width="600" height="600">
+       <h5> The Ancestral Puebloan ruins at Hovenweep near Dove Creek are a fascinating archaeological site showcasing the ancient Pueblo people's impressive masonry skills and cultural traditions. Click <a href="https://www.nps.gov/hove/learn/historyculture/index.htm">here</a> for more information</h5>
+
+       <h4> Cave Dwellings at Mesa Vesdes National Park</h4>
+       <img src="Cave.png" alt="Cave Dwellings" width="600" height="600">
+       <h5> The cave dwellings at Mesa Verde National Park are a remarkable feat of ancient engineering and provide a unique window into the lives of the Ancestral Puebloan people who inhabited the area over 700 years ago. Click <a href="https://www.nps.gov/meve/learn/historyculture/cliff_dwellings_home.htm#:~:text=The%20cliff%20dwellings%20of%20Mesa,built%20into%20natural%20cliff%20alcoves">here</a> for more information</h5>
+
+       <h4> Rocky Mountain National Park</h4>
+       <img src="Rocky.png" alt="Rocky Mountain National Park" width="600" height="600">
+       <h5> Rocky Mountain National Park is a breathtaking wilderness area that boasts snow-capped peaks, pristine alpine lakes, and abundant wildlife, offering visitors endless outdoor adventure and exploration opportunities. Click <a href="https://www.nps.gov/romo/index.htm">here</a> for more information</h5>
+
+       <h4> Great Sand Dunes</h4>
+       <img src="Sand.png" alt="Great Sand Dunes" width="600" height="600">
+       <h5> The Great Sand Dunes is a surreal and otherworldly natural wonder that features the tallest sand dunes in North America, providing visitors with an unforgettable desert-like experience amidst the Rocky Mountains. Click <a href="https://www.nps.gov/grsa/index.htm">here</a> for more information</h5>
+
+       <h4> Royal Arch Trail</h4>
+       <img src="Arch.png" alt="Royal Arch Trail" width="600" height="600">
+       <h5> The Royal Arch Trail is a challenging yet rewarding hike that offers stunning panoramic views of Boulder and the surrounding mountains, culminating in a breathtaking natural sandstone arch. Click <a href="https://bouldercolorado.gov/trail/royal-arch">here</a> for more information</h5>
+
+       <h4> Lake Isabelle Trail</h4>
+       <img src="Lake.png" alt="Lake Isabelle Trail" width="600" height="600">
+       <h5> The Lake Isabelle Trail is a picturesque hike that leads visitors through a stunning alpine valley and past waterfalls before reaching the serene Lake Isabelle, surrounded by towering peaks and vibrant wildflowers. Click <a href="https://www.alltrails.com/trail/us/colorado/lake-isabelle-trail-winter">here</a> for more information</h5>
+    
+       <h4> Devil's Head Lookout Trail</h4>
+       <img src="Devil.png" alt="Devil's Head Lookout Trail" width="600" height="600">
+       <h5> The Devil's Head Lookout trail is a scenic and moderately challenging hike that rewards visitors with breathtaking panoramic views of the Rocky Mountains and the opportunity to climb to the top of a historic fire lookout tower. Click <a href="https://www.fs.usda.gov/recarea/psicc/recarea/?recid=12927">here</a> for more information</h5>
+       
+       <h4> Eldorado Canyon Trail </h4>
+       <img src="Eldorado.png" alt="Eldorado canyon trail " width="600" height="600">
+       <h5> The Eldorado Canyon trail= is a stunning hike that takes visitors through a rugged canyon featuring towering sandstone cliffs, a picturesque creek, and the historic ruins of an old hotel and mining town. Click <a href="https://www.alltrails.com/trail/us/colorado/eldorado-canyon-state-park">here</a> for more information</h5>
+        </div>
+        <!-- outdoor activities (winter)-->
+        <div class="outdoorwinteractivities" id="outdoorwinter">
+        <h3> Outdoor Winter Activities </h3>
+
+        <h4> Ski at one of Colorado’s 28 Ski Resorts</h4>
+        <div class = "lists">
+        <img src="Ski.png" alt="Ski at one of Colorado’s 28 Ski Resorts" width="600" height="600">
+        <ul>
+            <li>Vail, CO, offers world-class skiing and snowboarding experiences, with over 5,000 acres of skiable terrain, stunning mountain vistas, and a charming alpine village atmosphere. Click <a href="https://www.vail.com/">here</a> for more information</li>
+            <li>Aspen, CO, is a premier ski resort destination that offers some of the best skiing and snowboarding in the world, with four mountains to choose from, top-notch amenities, and a vibrant cultural scene. Click<a href="https://www.aspensnowmass.com/?NCK=8887390842&gclid=CjwKCAjwxr2iBhBJEiwAdXECw5GXKderfYgx2NXnhEAtLzmksX_O8YzC6WfLbGfP7Gr6TlwYInYYpRoCwZcQAvD_BwE&gclsrc=aw.ds">here</a> for more information</li>
+            <li>Keystone, CO, is a family-friendly ski resort with over 3,000 acres of skiable terrain, diverse runs for all skill levels, and many activities on and off the slopes. Click <a href="https://www.keystoneresort.com/">here</a> for more information</li>
+        </ul> 
+            
+        <h4> Ice Skating</h4>
+        <img src="IceSkating.png" alt="Ice Skating" width="600" height="600">
+        <ul>
+            <li>The Old Town Square rink is a charming outdoor ice skating rink that offers a festive and family-friendly atmosphere, surrounded by quaint shops and restaurants in the heart of Fort Collins. Click <a href="https://downtownfortcollins.com/event/skate-rink/">here</a> for more information</li>
+            <li>The Downtown Denver Rink is a fun and lively outdoor ice skating rink in the city's heart, with stunning skyline views and plenty of nearby attractions. Click<a href="https://www.winterindenver.com/rink">here</a> for more information</li>
+            <li>The Evergreen Rink is a picturesque outdoor ice skating rink nestled in the mountains, surrounded by towering pine trees and offering a rustic and charming winter experience. Click <a href="https://www.evergreenrecreation.com/224/Ice-Skating-and-Hockey">here</a> for more information</li>
+        </ul> 
+
+        <h4> Tubing</h4>
+        <img src="Tubing.png" alt="Tubing" width="600" height="600">
+        <ul>
+            <li>Tubing in Vail, CO, is a thrilling winter activity that allows visitors to slide down the mountain on inflatable tubes, with multiple lanes, stunning views, and a fun and family-friendly atmosphere. Click <a href="https://www.allvail.com/winter_recreation/snow_tubing.php">here</a> for more information</li>
+            <li>Tubing in Steamboat, CO, is a popular winter activity that allows visitors to slide down the mountain on inflatable tubes with multiple lanes, exciting features, and a convenient lift to take riders back up the hill. Click<a href="https://www.steamboat.com/things-to-do/activity-details/snow-tubing">here</a> for more information</li>
+            <li>Tubing in Copper, CO, is a fun and thrilling winter activity that allows visitors to slide down the mountain on inflatable tubes with multiple lanes, a steep drop, and a conveyor belt to transport riders back up the hill.Click <a href="https://www.coppercolorado.com/things-to-do/activities-amenities/tubing-hill">here</a> for more information</li>
+        </ul> 
+
+        <h4> Hot Springs</h4>
+        <img src="HotSprings.png" alt="Hot Springs" width="600" height="600">
+        <ul>
+            <li>The hot springs in Ouray, CO, are a natural wonder that offers visitors the chance to soak in relaxing and therapeutic mineral-rich hot pools surrounded by stunning mountain scenery. Click <a href="https://ourayhotsprings.com/">here</a> for more information</li>
+            <li>The hot springs in Iron Mountain, CO, are a unique and luxurious experience that allows visitors to soak in various indoor and outdoor mineral-rich hot pools with stunning views of the Colorado River and the surrounding canyon. Click<a href="https://www.ironmountainhotsprings.com/">here</a> for more information</li>
+            <li>The hot springs in Glenwood Springs, CO, are a popular and historic attraction that offers visitors the chance to soak in natural mineral-rich hot pools, with multiple pools of different temperatures, a spacious deck area, and stunning views of the mountains. Click <a href="https://www.hotspringspool.com/">here</a> for more information</li>
+        </ul> 
+        </div>
+        </div>
+
+     
+        <!-- indoor activities -->
+        <div class="foodactivities" id="food">
+        <h3> Food</h3>
+
+        <h4> Buckhorn Exchange</h4>
+        <img src="Buckhorn.png" alt="Buckhorn Exchange" width="600" height="600">
+        <h5> Buckhorn Exchange is a historic and unique restaurant that offers visitors the chance to dine on exotic meats like elk, bison, and rattlesnake in a Wild West atmosphere, with taxidermy animals and antiques decorating the walls. Click <a href="https://www.buckhorn.com/">here</a> for more information</h5> 
+
+        <h4> Bingo Burger</h4>
+        <img src="Bingo.png" alt="Bingo Burger" width="600" height="600">
+        <h5> Bingo Burger is a favorite local restaurant offering visitors delicious burgers made with fresh, locally sourced ingredients, creative toppings, and tasty hand-cut fries and milkshakes. Click <a href="https://www.bingoburger.com/">here</a> for more information</h5> 
+        
+        <h4> The Fort</h4>
+        <img src="Fort.png" alt="The Fort" width="600" height="600">
+        <h5> The Fort restaurant is a unique and historic dining experience that offers visitors the chance to dine on traditional foods of the American West, like buffalo, elk, and quail, in a replica of an 1800s adobe fur-trading fort, with stunning views of the mountains. Click <a href="https://www.denverunionstation.com/">here</a> for more information</h5> 
+        
+        <h4> Stanley Marketplace</h4>
+        <img src="Stanley.png" alt="Stanley Marketplace" width="600" height="600">
+        <h5> Stanley Marketplace is a trendy and bustling food hall that offers visitors various culinary options from multiple local vendors, including tacos, sushi, pizza, ice cream, coffee, and more. Click <a href="https://stanleymarketplace.com/">here</a> for more information</h5> 
+        
+        <h4> Denver Biscuit Company</h4>
+        <img src="Biscuit.png" alt="Denver Biscuit Company" width="600" height="600">
+        <h5> Denver Biscuit Company is a popular breakfast and brunch spot specializing in serving up giant, flaky biscuits smothered in savory toppings like fried chicken, bacon, and gravy, along with tasty sides like hash browns and grits. Click <a href="https://www.denbisco.com/">here</a> for more information</h5> 
+        
+        <h4> Denver Central Market</h4>
+        <img src="Central.png" alt="Denver Central Market" width="600" height="600">
+        <h5> Denver Central Market is a trendy indoor food hall that showcases a variety of local vendors, offering visitors everything from fresh seafood and meats to artisanal bread, cheeses, and chocolates. Click <a href="https://www.denvercentralmarket.com/">here</a> for more information</h5> 
+        
+        <h4> Brasserie Ten Ten</h4>
+        <img src="Brasserie.png" alt="Brasserie Ten Ten" width="600" height="600">
+        <h5> Brasserie Ten Ten is a French-inspired restaurant in downtown Boulder, offering classic dishes and an extensive wine list. Click <a href="https://www.brasserietenten.com/">here</a> for more information</h5> 
+        </div>
+
+    <script src="/JS-Final/JS-Final.js"></script>
+    </body>
+    </html>
+</html>

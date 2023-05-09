@@ -1,0 +1,234 @@
+.CO {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.COLORADO {
+    font-size: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.generator {
+    position: relative;
+    color: white;
+}
+
+.randomgensummer {
+    font-size: 75px;
+    position: absolute;
+    top: 83%;
+    left: 26%;
+}
+
+.randomgenwinter {
+    font-size: 75px;
+    position: absolute;
+    top: 83%;
+    left: 56%;
+}
+
+  body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #E6E6E6;
+    overflow: hidden;
+    font-size: 60px;
+}
+nav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    background-color: #00539C;
+    color: black;
+}
+
+h3{
+    font-size: 100px;
+    color: #00539C;
+    background-color: #F5F5F5;
+    padding-left: 27%;
+}
+
+h4{
+    font-size: 100px;
+    color: gray;
+    background-color: #F5F5F5;
+}
+
+h5{
+    font-size: 90px;
+    background-color: #F5F5F5;
+    word-wrap: break-word;
+    inline-size: 2000px;
+    float: right;
+    position: relative;
+    right: 40%;
+    bottom: 145px;
+}
+.active {
+    background-color: #00539C;
+    color: white;
+}
+.paragraph {
+    margin: 20px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    font-size: 55px;
+    line-height: 1.5;
+}
+
+.buttonContainer {
+    position: relative;
+    width: 100%;
+    left: 7.5%;
+}
+
+.indoorimage {
+    opacity: 1;
+    display: inline;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.summerimage {
+    opacity: 1;
+    display: inline;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.winterimage {
+    opacity: 1;
+    display: inline;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.foodimage {
+    opacity: 1;
+    display: inline;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 10.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.buttonContainer:hover .middle {
+    opacity: 1;
+}
+
+.indoortext {
+    background-color: white;
+    color: #00539C;
+    font-size: 50px;
+    padding: 16px 32px;
+}
+
+.summermiddle {
+    transition: .5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 32.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.buttonContainer:hover .summermiddle {
+    opacity: 1;
+}
+
+.summertext {
+    background-color: white;
+    color: #00539C;
+    font-size: 50px;
+    padding: 16px 32px;
+}
+
+.wintermiddle {
+    transition: .5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 53.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.buttonContainer:hover .wintermiddle {
+    opacity: 1;
+}
+
+.wintertext {
+    background-color: white;
+    color: #00539C;
+    font-size: 50px;
+    padding: 16px 32px;
+}
+
+.foodmiddle {
+    transition: .5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 74.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+.buttonContainer:hover .foodmiddle {
+    opacity: 1;
+}
+
+.foodtext {
+    background-color: white;
+    color: #00539C;
+    font-size: 50px;
+    padding: 16px 32px;
+}
+
+.indooractivities {
+    padding-left: 22%
+}
+
+.outdoorsummeractivities {
+    padding-left: 22%;
+}
+
+.outdoorwinteractivities {
+    padding-left: 22%;
+}
+
+.foodactivities {
+    padding-left: 22%;
+}
+
+.lists ul{
+    font-size: 60px;
+    background-color: #F5F5F5;
+    word-wrap: break-word;
+    inline-size: 2000px;
+    float: right;
+    position: relative;
+    right: 40%;
+    bottom: 180px;
+}
